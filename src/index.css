@@ -8,33 +8,49 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* AgriEdge Design System - Earth & Growth Inspired */
+    --background: 120 20% 98%;
+    --foreground: 120 15% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 120 15% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 120 15% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary - Deep Forest Green */
+    --primary: 120 60% 25%;
+    --primary-foreground: 120 20% 98%;
+    --primary-glow: 120 40% 45%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary - Rich Earth Tones */
+    --secondary: 35 25% 90%;
+    --secondary-foreground: 120 15% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 120 15% 94%;
+    --muted-foreground: 120 10% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent - Fresh Growth Green */
+    --accent: 85 60% 55%;
+    --accent-foreground: 120 15% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 120 15% 85%;
+    --input: 120 15% 90%;
+    --ring: 120 60% 25%;
+
+    /* AgriEdge Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-hero: linear-gradient(135deg, hsl(120 60% 25%), hsl(85 60% 35%));
+    --gradient-earth: linear-gradient(180deg, hsl(35 40% 85%), hsl(35 30% 75%));
+    --gradient-growth: linear-gradient(45deg, hsl(85 60% 55%), hsl(120 50% 45%));
+
+    /* Shadows with AgriEdge theme */
+    --shadow-agricultural: 0 10px 30px -10px hsl(var(--primary) / 0.2);
+    --shadow-glow: 0 0 40px hsl(var(--accent) / 0.3);
+    --shadow-card: 0 4px 20px -5px hsl(var(--primary) / 0.1);
 
     --radius: 0.5rem;
 
